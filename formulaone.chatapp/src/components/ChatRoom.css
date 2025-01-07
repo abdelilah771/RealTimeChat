@@ -1,0 +1,73 @@
+/* Chat Room Styling */
+.chat-room {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    max-width: 600px;
+    width: 100%;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  /* Header Styling */
+  .chat-header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Messages Container */
+  .messages-container {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+  }
+  
+  /* Message Styling */
+  .message {
+    margin-bottom: 15px;
+    max-width: 75%;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 1.5;
+    position: relative;
+  }
+  
+  .message .message-username {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .message.message-incoming {
+    background: #f1f1f1;
+    align-self: flex-start;
+  }
+  
+  .message.message-outgoing {
+    background: #007bff;
+    color: white;
+    align-self: flex-end;
+  }
+  
+  /* Rounded Corners for Outgoing Messages */
+  .message.message-outgoing {
+    border-bottom-right-radius: 5px;
+  }
+  
+  /* Send Message Form */
+  .send-message-form {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+    background: #f8f9fa;
+  }
+  

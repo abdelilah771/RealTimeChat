@@ -1,0 +1,63 @@
+/* General container styling for the form */
+.send-message-form {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    background: white;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Input field styling */
+.message-input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.message-input {
+    flex: 1;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background: #f1f1f1;
+    outline: none;
+    box-shadow: none;
+}
+
+.message-input:focus {
+    background: #fff;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Send button styling */
+.send-button {
+    background: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+}
+
+.send-button:hover {
+    background: #007dc1;
+}
+
+.send-button:disabled {
+    background: #b2dffc;
+    cursor: not-allowed;
+}
