@@ -6,9 +6,17 @@ const Login = ({ setUser }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isSignUp, setIsSignUp] = useState(false);
+  const [error, setError] = useState("");
 
   const handleAuth = async (e) => {
     e.preventDefault();
+    setError(""); // Clear previous errors
+
+    if (!email || !password) {
+      setError("Email and password are required.");
+      return;
+    }
+
     try {
       let userCredential;
       if (isSignUp) {
@@ -16,9 +24,10 @@ const Login = ({ setUser }) => {
       } else {
         userCredential = await signInWithEmailAndPassword(auth, email, password);
       }
-      setUser(userCredential.user);
+      setUser(userCredential.user); // Pass the logged-in user to App
     } catch (error) {
       console.error("Authentication error:", error.message);
+      setError(error.message); // Display the error to the user
     }
   };
 
@@ -40,7 +49,8 @@ const Login = ({ setUser }) => {
         />
         <button type="submit">{isSignUp ? "Sign Up" : "Login"}</button>
       </form>
-      <p onClick={() => setIsSignUp(!isSignUp)}>
+      {error && <p className="error-text">{error}</p>}
+      <p onClick={() => setIsSignUp(!isSignUp)} className="toggle-auth">
         {isSignUp ? "Already have an account? Login" : "Don't have an account? Sign Up"}
       </p>
     </div>
