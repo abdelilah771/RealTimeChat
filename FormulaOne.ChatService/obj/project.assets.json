@@ -355,19 +355,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ULTRAPC\\.nuget\\packages\\": {}
+    "C:\\Users\\abdelilah777\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ULTRAPC\\Desktop\\c#\\FormulaOne.ChatService\\FormulaOne.ChatService.csproj",
+      "projectUniqueName": "C:\\Users\\abdelilah777\\RiderProjects\\RealTimeChat\\FormulaOne.ChatService\\FormulaOne.ChatService.csproj",
       "projectName": "FormulaOne.ChatService",
-      "projectPath": "C:\\Users\\ULTRAPC\\Desktop\\c#\\FormulaOne.ChatService\\FormulaOne.ChatService.csproj",
-      "packagesPath": "C:\\Users\\ULTRAPC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ULTRAPC\\Desktop\\c#\\FormulaOne.ChatService\\obj\\",
+      "projectPath": "C:\\Users\\abdelilah777\\RiderProjects\\RealTimeChat\\FormulaOne.ChatService\\FormulaOne.ChatService.csproj",
+      "packagesPath": "C:\\Users\\abdelilah777\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abdelilah777\\RiderProjects\\RealTimeChat\\FormulaOne.ChatService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ULTRAPC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\abdelilah777\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -389,7 +389,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -425,11 +425,101 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\abdelilah777\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'jQuery' 1.6.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2pqj-h3vj-pqgw",
+      "libraryId": "jQuery",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'jQuery' 1.6.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c3j-c64m-qhgq",
+      "libraryId": "jQuery",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'jQuery' 1.6.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-gxr4-xjj5-5px2",
+      "libraryId": "jQuery",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'jQuery' 1.6.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-jpcq-cgw6-v4j6",
+      "libraryId": "jQuery",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'jQuery' 1.6.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-q4m3-2j7h-f7xw",
+      "libraryId": "jQuery",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'jQuery' 1.6.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rmxg-73gg-4p98",
+      "libraryId": "jQuery",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-3rq8-h3gj-r5c6",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Owin' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-hxrm-9w7p-39cc",
+      "libraryId": "Microsoft.Owin",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 6.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net9.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
